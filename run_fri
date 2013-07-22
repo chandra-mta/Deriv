@@ -1,4 +1,4 @@
-#! /usr/bin/tcsh
+#! /bin/tcsh
 date
 source /home/mta/.ascrc
 /home/mta/bin/reset_param

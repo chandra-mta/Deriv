@@ -320,11 +320,12 @@ endif else begin
 endelse
   
 ; close the quotes, here we go
-command = command+'"'
+command = command+'" loginFile=loginfile'
 
 if (keyword_set(opt)) then command = command+" "+opt
 
 command = strcompress(command)
+print, "command ", command
 
 ;not needed now, maybe later -->get_lun, cunit
 ;not needed now, maybe later -->openw, cunit, tmpcfg

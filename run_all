@@ -1,4 +1,4 @@
-#! /usr/bin/tcsh
+#! /bin/tcsh
 date
 source /home/mta/.ascrc
 #  sometimes have to specify a different install
